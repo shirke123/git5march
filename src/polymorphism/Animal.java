@@ -7,7 +7,7 @@ public class Animal
 {
     public void sound()
     {
-        System.out.println(" Animal sound");
+        System.out.println(" Inheritance sound");
     }
 
 }

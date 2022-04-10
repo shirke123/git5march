@@ -14,7 +14,7 @@ public class AnonymousInnerClass {
         System.out.println(add.addition(1,6));
     }
 }
-  interface Add{
+  interface Add {
     int addition(int a,int b);
 
  }
