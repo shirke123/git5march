@@ -5,11 +5,13 @@ public class ThreadPriority {
         System.out.println(Thread.currentThread().getName());
 
         Thread t1=new Thread(new Runnable(){
+
             @Override
             public void run() {
                 System.out.println("In t1 is thread");
             }
         });
+
         t1.setPriority(Thread.MAX_PRIORITY);
         t1.start();
 

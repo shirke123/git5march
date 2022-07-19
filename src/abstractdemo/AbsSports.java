@@ -21,7 +21,7 @@ public abstract  class AbsSports
               }
         }
 
-   /*             abstract                                                   interface
+   /**            abstract                                                   interface
          1.abstract class have both method                         1.only abstract (default and static)
          abstract class and non-abstract class(contract method)
 

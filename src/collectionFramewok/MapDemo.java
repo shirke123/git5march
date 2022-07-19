@@ -12,9 +12,13 @@ public class MapDemo {
         map.put(3,"XYZ");
 
         map.forEach((K,v)->{
-            System.out.println(K+""+v);
+            System.out.println(K+" "+v);
         });
        System.out.println(map);
-    }
 
+       for(Integer entry: map.keySet()){
+           System.out.println(entry+" "+map.get(entry));
+       }
+
+    }
 }

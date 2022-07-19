@@ -11,6 +11,7 @@ public class FileHandlingDemo {
 
         File file = new File("C:\\Users\\Admin\\IdeaProjects\\fullstackjava-test.java\\src\\filehandling\\test.txt");
         // byte stream
+
         try {
             FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\Admin\\IdeaProjects\\fullstackjava-test.java\\src\\filehandling\\test.txt");
             String str = "today is wednesday";

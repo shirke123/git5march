@@ -9,6 +9,7 @@ public class FileWriter {
        // FileWriter fileWriter = null;
         try {
             //character stream class
+
             java.io.FileWriter fileWriter = new java.io.FileWriter("sample.txt");
             fileWriter.write("today is thursday");
             System.out.println("file save");

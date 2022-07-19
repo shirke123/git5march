@@ -2,7 +2,9 @@ package ControlFlowStatment;
 
 public class SumOfArray {
     public static void main(String[] args) {
-
+        /**
+          sum of array
+          */
         int[] arr = {100, 30, 67, 105, 90, 102, 104};
         int sum = 0;
         for (int i = 0; i < arr.length; i++)

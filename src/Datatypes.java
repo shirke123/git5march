@@ -10,7 +10,7 @@ public class Datatypes {
         float f = 98.67f;
         double d = 166.66d;
         char ch = 'a';
-
+//lower
 
         //non primitive data type
         Long l1;
@@ -21,7 +21,7 @@ public class Datatypes {
         Float f2;
         Boolean b3;
         Character character;
-
+//faster
     }
 }
 

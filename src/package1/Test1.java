@@ -2,7 +2,7 @@ package package1;
 
 public class Test1
 {
-    //instance  variable or Global variable
+    //instance  variable or Global variable or class level variable
     protected int i=10;//member variable
 
     public void show() //member function
@@ -17,6 +17,8 @@ public class Test1
         System.out.println(" obj.i");
     }
 }
+
+
 /**  access modifier and specifier:-
 
 *  1.private :- it can be accessed within class only.

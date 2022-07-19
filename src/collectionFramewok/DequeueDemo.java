@@ -15,7 +15,7 @@ public class DequeueDemo {
         deque.addFirst(50);
         deque.addLast(60);
 
-        System.out.println(deque.peek()); // first dqueue.
+        System.out.println(deque.peek());  // first dequeue.
         System.out.println(deque.peekFirst());
         System.out.println(deque.getFirst());
         System.out.println(deque.getLast());

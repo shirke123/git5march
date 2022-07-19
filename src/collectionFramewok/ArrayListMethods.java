@@ -22,14 +22,14 @@ public class ArrayListMethods {
          list2.add(45);
 
 
-//        System.out.println(list1.addAll(list2));
-//        System.out.println(list1.removeAll(list2));
-          System.out.println(list1.containsAll(list2));
+       // System.out.println(list1.addAll(list2));     //true
+    //    System.out.println(list1.removeAll(list2));   //true
+          System.out.println(list1.containsAll(list2));  //false
           System.out.println(list1);
 
 //        System.out.println(list1);
-//        System.out.println(list1.size());
-//        System.out.println(list1.contains(10));
+  //      System.out.println(list1.size());  // size of the list
+          System.out.println(list1.contains(10));
 //        System.out.println(list1.get(3));
 //        System.out.println(list1.indexOf(77));
 //        System.out.println(list1.isEmpty());

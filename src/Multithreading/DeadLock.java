@@ -4,7 +4,8 @@ import kotlin.jvm.Synchronized;
 
 import java.util.Scanner;
 
-public class DeadLock {
+public class
+DeadLock {
     public static void main(String[] args) {
         String scanner="Scanner";
         String Printer="Printer";

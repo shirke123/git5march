@@ -18,10 +18,10 @@ public class ArrayListDemo {
         arr[2] = 90;
 
         ArrayList<Employee1> list1 = new ArrayList<>();
-        Employee1 employee = new Employee1(1,"ramesh","pune");
-        Employee1 employee2 = new Employee1(2,"ramesh","pune");
-        Employee1 employee3 = new Employee1(3,"ramesh","pune");
-        Employee1 employee4 = new Employee1(4,"ramesh","pune");
+        Employee1 employee = new Employee1(1," ramesh "," pune ");
+        Employee1 employee2 = new Employee1(2," ramesh "," pune ");
+        Employee1 employee3 = new Employee1(3," ramesh "," pune ");
+        Employee1 employee4 = new Employee1(4," ramesh "," pune ");
 
         list1.add(employee);
         list1.add(employee3);
@@ -29,7 +29,7 @@ public class ArrayListDemo {
         list1.add(employee4);
 
         for ( Employee1 employee1: list1) {
-            System.out.println(employee1.id + "" + employee1.name+ "" + employee1.address);
+            System.out.println(employee1.id + " " + employee1.name+ " " + employee1.address);
         }
 
          List<Integer> list =  Arrays.asList(1, 2, 3, 4, 4, 5);

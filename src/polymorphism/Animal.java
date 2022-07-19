@@ -3,6 +3,7 @@ package polymorphism;
 /**
    - two class have same method name and same parameter this called method overriding.
  */
+
 public class Animal
 {
     public void sound()

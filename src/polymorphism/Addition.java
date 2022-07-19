@@ -8,7 +8,7 @@ public class Addition
      -  same class we have same method name with different number of arguments.
 
   // advantages:-
-     -   it increases readability of the program.
+              -   it increases readability of the program.
      */
     public int add(int a, int b) {
         return a + b;

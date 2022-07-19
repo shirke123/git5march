@@ -4,8 +4,16 @@ package constructor;
       Constructor is a special type of functions which invoke/call  automatically
       when object of class is created.
 
+ Rules:- 1. your class name and constructor name should be same.
+          2. constructor has no return type.
+          3. static,final,synchronized keywords are not allowed.
+
+ Types:-  1. Default constructor
+           2. parameter constructor
+
  use:- to initiate variable to their default value.
  */
+
 public class ConstructorDemo
 {
     int i;
